@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="card-header">
+     <h5>Card Belongs To :  <strong>{{person.name}}</strong> </h5>
+  </div>
+  <div class="card-body">
+    <p #getStatus> <b>Student Status :</b> {{person.isStudent ? "Active" :  "Inactive"}} </p>
+    <h6 class="card-title"> <strong>Contact :</strong> {{person.email}}</h6>
+    <br>
+    <button  (click)="setStatus()" class="btn btn-primary"> Activate Student Status </button>
+  </div>
+</div>
+
+<app-child [AddresFromParents]="person.address"></app-child>

@@ -1,0 +1,20 @@
+
+.addres-header 
+{
+    border: 1px solid hsl(0, 4%, 82%);
+    background-color: whitesmoke;
+    text-align: center;
+}
+.card-header-m
+{  
+    border: 1px solid hsl(0, 4%, 82%);
+    margin: 20px;
+    margin-top: 15px; 
+    width: 50%;
+    background-color :white ;
+}
+
+.addr 
+{
+margin-left: 3%;
+}
