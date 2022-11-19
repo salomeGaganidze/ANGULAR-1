@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ChildComponent } from './child/child.component';
+import { OddevenComponent } from './oddeven/oddeven.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChildComponent
+    ChildComponent,
+    OddevenComponent
   ],
   imports: [
     BrowserModule

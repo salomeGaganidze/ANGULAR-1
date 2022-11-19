@@ -7,7 +7,7 @@ import { AddressTp } from '../personData.interface';
   styleUrls: ['./child.component.css']
 })
 export class ChildComponent implements OnInit {
-  
+  ber : number = 12.345677; 
   @Input() AddresFromParents! : AddressTp ;
   constructor() 
   {
